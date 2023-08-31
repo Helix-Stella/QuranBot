@@ -13,7 +13,7 @@ const prefix = '-';
 
 const queue = new Map();
 const searcher = new YTSearcher({
-  key: 'YOUTUBE API KEY',
+  key: 'YOUR YOUTUBE API KEY',
   revealed: true,
 });
 
