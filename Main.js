@@ -13,7 +13,7 @@ const prefix = '-';
 
 const queue = new Map();
 const searcher = new YTSearcher({
-  key: 'AIzaSyDD9a-HBV8hXYAYiAOqkUz78zSP-x65feM',
+  key: 'YOUTUBE API KEY',
   revealed: true,
 });
 
@@ -120,4 +120,4 @@ function play(guild, song) {
 }
 
 // Replace 'YOUR_TOKEN' with your actual bot token
-client.login('MTE0NjQxNDY0OTE3NzI5Mjg3Mg.GBXrhY.nOn7GNQigD1jY4SAhTjvChABjTtpev4yEV4bCo');
+client.login('YOUR_TOKEN');
